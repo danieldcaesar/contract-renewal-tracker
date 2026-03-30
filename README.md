@@ -29,6 +29,7 @@ Clone the repository:
 
 Install dependencies:
 ```npm install```
+
 Start the app:
 ```npm run dev```
 
@@ -73,10 +74,14 @@ src/
 ---
 
 ### Technologies Used
-**React** – front-end framework
-**Vite** – development environment and bundler
-**CSS** – basic styling
-**localStorage** – persistent client-side storage
+React – front-end framework
+
+Vite – development environment and bundler
+
+CSS – basic styling
+
+localStorage – persistent client-side storage
+
 ---
 
 ### License
