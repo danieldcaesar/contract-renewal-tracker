@@ -21,8 +21,12 @@ A simple React app to track employee contract expiry dates, highlight upcoming r
 
 ### Installation
 Clone the repository:
-```git clone https://github.com/yourusername/contract-renewal-app.git```
+
+```git clone https://github.com/danieldcaesar/contract-renewal-tracker.git```
+
 ```cd contract-renewal-app```
+
+
 Install dependencies:
 ```npm install```
 Start the app:
