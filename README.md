@@ -9,11 +9,11 @@ A simple React app to track employee contract expiry dates, highlight upcoming r
 2. Expiring Soon – 3–6 months remaining
 3. Renewal Process Due – less than 3 months remaining
 4. Expired – end date has passed
-Filter Contracts – filter by status (All, Active, Expiring Soon, Renewal Process Due, Expired).
-Search Contracts – search by employee name or department.
-Summary Cards – view total contracts and breakdown by status.
-Persistent Storage – all contracts are saved to localStorage and persist across browser sessions.
-Sample Contracts – preloaded sample data to get started immediately.
+- Filter Contracts – filter by status (All, Active, Expiring Soon, Renewal Process Due, Expired).
+- Search Contracts – search by employee name or department.
+- Summary Cards – view total contracts and breakdown by status.
+- Persistent Storage – all contracts are saved to localStorage and persist across browser sessions.
+- Sample Contracts – preloaded sample data to get started immediately.
 Installation
 Clone the repository:
 git clone https://github.com/yourusername/contract-renewal-app.git
