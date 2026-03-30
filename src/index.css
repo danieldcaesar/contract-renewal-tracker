@@ -88,3 +88,95 @@ button:hover {
 .contract-card p {
   margin-bottom: 0.4rem;
 }
+
+.card-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-left: 0.4rem;
+}
+
+.active {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.expiring-soon {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.renewal-process-due {
+  background-color: #fed7aa;
+  color: #9a3412;
+}
+
+.expired {
+  background-color: #fecaca;
+  color: #991b1b;
+}
+
+.search-bar {
+  margin-bottom: 1.5rem;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+}
+
+.form-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.form-error {
+  color: #b91c1c;
+  background-color: #fee2e2;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.summary-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.summary-cards .card {
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.summary-cards .card h3 {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.summary-cards .card p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card:nth-child(2) { background-color: #d1fae5; } /* Active */
+.card:nth-child(3) { background-color: #fef3c7; } /* Expiring Soon */
+.card:nth-child(4) { background-color: #fed7aa; } /* Renewal */
+.card:nth-child(5) { background-color: #fecaca; } /* Expired */

@@ -1,7 +1,12 @@
-function SearchBar() {
+function SearchBar({ searchTerm, setSearchTerm }) {
   return (
-    <section>
-      <input type="text" placeholder="Search contracts..." />
+    <section className="search-bar">
+      <input
+        type="text"
+        placeholder="Search by name or department..."
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+      />
     </section>
   );
 }
