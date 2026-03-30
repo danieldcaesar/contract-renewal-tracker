@@ -21,12 +21,12 @@ A simple React app to track employee contract expiry dates, highlight upcoming r
 
 ### Installation
 Clone the repository:
-`git clone https://github.com/yourusername/contract-renewal-app.git`
-`cd contract-renewal-app`
+```git clone https://github.com/yourusername/contract-renewal-app.git```
+```cd contract-renewal-app```
 Install dependencies:
-`npm install`
+```npm install```
 Start the app:
-`npm run dev`
+```npm run dev```
 
 The app should now be running at http://localhost:5173 (Vite default).
 
@@ -34,7 +34,6 @@ The app should now be running at http://localhost:5173 (Vite default).
 
 ### File Structure
 ```
-{
 src/
   components/
     ContractCard.jsx
@@ -48,7 +47,6 @@ src/
   App.jsx
   main.jsx
   index.css
-}
 ```
 
 ---
