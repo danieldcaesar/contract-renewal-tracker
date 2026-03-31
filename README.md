@@ -3,6 +3,16 @@
 A simple React app to track employee contract expiry dates, highlight upcoming renewals, and manage contract information efficiently. Built with React + local state + localStorage for persistence.
 
 ---
+### Screenshots
+
+![Summary Cards & Add Contract](https://github.com/user-attachments/assets/bd95482f-fb46-443d-9fa5-56d2166dbf9c)
+
+![Search & Filter Bar](https://github.com/user-attachments/assets/4150ba5a-1e1d-4b86-a124-1aa7ea715f33)
+
+![Contract List](https://github.com/user-attachments/assets/bf6224d9-89c4-4fd1-8c1c-ed5da80f649a)
+
+
+---
 
 ### Features
 - Add/Edit/Delete Contracts – manage employee contracts easily.
